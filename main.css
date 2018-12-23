@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+body {
+  background: #25274d;
+  font-family: "Pacifico", serif;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 25% 25% 50%;
+  align-items: center;
+}
+
+.title {
+  grid-column: span 5;
+  font-size: 2vw;
+  color: #a9abb8;
+}
+
+.control-panel {
+  font-size: 5vw;
+  color: #29658a;
+}
+
+.section-title {
+  color: #a9abb8;
+}
+
+.play,
+.pause,
+.restart {
+  display: inline-block;
+}
+
+.reset {
+  display: inline-block;
+}
+
+.setup-session {
+  grid-column: span 2;
+  font-size: 2vw;
+  color: #29658a;
+}
+
+.setup-break {
+  grid-column: span 2;
+  font-size: 2vw;
+  color: #29658a;
+}
+
+.setup-value {
+  display: inline-block;
+  font-size: 2vw;
+  color: white;
+  background: none;
+  border: none;
+  width: 3.3vw;
+}
+
+input {
+  text-align: center;
+}
+
+i {
+  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+  -moz-user-select: none; /* mozilla browsers */
+  -khtml-user-select: none; /* webkit (konqueror) browsers */
+  -ms-user-select: none; /* IE10+ */
+  padding: 0.5vw;
+}
+
+.fas:hover,
+.far:hover {
+  -webkit-animation: color_change 0.3s;
+  -moz-animation: color_change 0.3s;
+  -ms-animation: color_change 0.3s;
+  -o-animation: color_change 0.3s;
+  animation: color_change 0.3s;
+  color: #2d9cca;
+}
+
+.pomodoro {
+  grid-column: span 5;
+  color: #a9abb8;
+  font-size: 4vw;
+}
+
+#minutes,
+#seconds {
+  display: inline-block;
+}
+
+#timer-animation {
+  border: 5px #29658a solid;
+  border-radius: 50%;
+  font-size: 5vw;
+  overflow: hidden;
+  width: 9vw;
+  height: 9vw;
+  margin: auto;
+}
+
+#loading-progress {
+  margin-top: 9vw;
+  background: #2d9cca;
+  height: 0%;
+  border-radius: 50%;
+  transition: height 0.5s ease-in-out;
+  transform: rotatex(180deg);
+  transform-origin: top;
+}
+
+#fcc-icon {
+  transform: rotatex(180deg);
+}
+
+#instructions {
+  font-size: 1vw;
+  margin: 1vw;
+}
+
+.fa-keyboard {
+  font-size: 2vw;
+}
+
+@-webkit-keyframes color_change {
+  from {
+    color: #29658a;
+  }
+  to {
+    color: #2d9cca;
+  }
+}
+@-moz-keyframes color_change {
+  from {
+    color: #29658a;
+  }
+  to {
+    color: #2d9cca;
+  }
+}
+@-ms-keyframes color_change {
+  from {
+    color: #29658a;
+  }
+  to {
+    color: #2d9cca;
+  }
+}
+@-o-keyframes color_change {
+  from {
+    color: #29658a;
+  }
+  to {
+    color: #2d9cca;
+  }
+}
+@keyframes color_change {
+  from {
+    color: #29658a;
+  }
+  to {
+    bcolor: #2d9cca;
+  }
+}
