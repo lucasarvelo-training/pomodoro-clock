@@ -2,6 +2,8 @@
 
 Pomodoro Clock
 
+[Try it out!!!](https://lucasarvelo.github.io/pomodoro-clock/)
+
 ## Built With
 
 - [Fontawesome](https://fontawesome.com/) - Icons
