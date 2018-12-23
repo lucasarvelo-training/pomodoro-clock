@@ -1,8 +1,6 @@
 # Project Title
 
-Pomodoro Clock
-
-[Try it out!!!](https://lucasarvelo.github.io/pomodoro-clock/)
+Pomodoro Clock [Try it out!!!](https://lucasarvelo.github.io/pomodoro-clock/)
 
 ## Built With
 
@@ -16,7 +14,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Authors
 
-- **Lucas Arvelo** - _Initial work_ - [PurpleBooth](https://github.com/lucasarvelo)
+- **Lucas Arvelo** - _Initial work_ - [LucasArvelo](https://github.com/lucasarvelo)
 
 See also the list of [contributors](https://github.com/pomodoro-clock/project/contributors) who participated in this project.
 
@@ -26,5 +24,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 
 ## Acknowledgments
 
-- This project was create like part of the requirements
-- for [FreeCodeCamp.org Curriculum](https://www.freecodecamp.org/)
+- This project was create like part of the requirements for [FreeCodeCamp.org Curriculum](https://www.freecodecamp.org/)
